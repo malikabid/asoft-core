@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Asoft_Core::core" title="Asoft" module="Asoft_Core" resource="Asoft_Core::core" sortOrder="10" />
+        <add id="Asoft_Core::settings" title="Asoft Settings" module="Asoft_Core" resource="Asoft_Core::settings" sortOrder="10" action="adminhtml/system_config/edit/section/asoft" parent="Asoft_Core::core" />
+    </menu>
+</config>

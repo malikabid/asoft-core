@@ -1,0 +1,33 @@
+{
+    "name": "asoft/core",
+    "description": "Asoft Core module for branding, configuration and menu settings",
+    "minimum-stability": "dev",
+    "keywords": [
+        "magento2",
+        "asoft","core"
+    ],
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~7.0.0|~7.1.0",
+        "magento/framework": "~100.0.4"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Asoft\\Core\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Abid Hussain Malik",
+            "homepage": "http://abidmalik.in/"
+        }
+    ]
+}
