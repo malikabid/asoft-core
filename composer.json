@@ -1,13 +1,12 @@
 {
     "name": "asoft/core",
     "description": "Asoft Core module for branding, configuration and menu settings",
-    "minimum-stability": "dev",
     "keywords": [
         "magento2",
         "asoft","core"
     ],
     "type": "magento2-module",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
